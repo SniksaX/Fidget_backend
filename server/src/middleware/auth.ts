@@ -1,4 +1,3 @@
-//Backend/server/src/middleware/auth.ts
 import { SanityClient } from "@sanity/client";
 import bcrypt from "bcryptjs";
 import passport from "passport";
