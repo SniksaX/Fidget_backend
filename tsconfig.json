@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2022",       
+    "module": "commonjs",
+    "lib": ["es2022"],        
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",       
+    "rootDir": "./server",          
+    "resolveJsonModule": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./typechain-types"     
+    ]
+  },
+  "include": [
+    "server/**/*.ts",
+    "test/**/*.ts"
+  ],
+    "exclude": [
+      "node_modules",
+      "cache",                  
+      "artifacts"               
+    ]
+}
